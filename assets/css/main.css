@@ -170,7 +170,7 @@ textarea {
 }
 
 body {
-	-ms-overflow-style: scrollbar;
+	-ms-overflow-style: inherit;
 }
 
 @media screen and (max-width: 480px) {
@@ -218,7 +218,7 @@ html {
 @media screen and (max-width: 1680px) {
 
 	html {
-		font-size: 14pt;
+		font-size: 15pt;
 	}
 
 }
@@ -226,7 +226,7 @@ html {
 @media screen and (max-width: 1280px) {
 
 	html {
-		font-size: 12pt;
+		font-size: 14pt;
 	}
 
 }
@@ -234,7 +234,7 @@ html {
 @media screen and (max-width: 736px) {
 
 	html {
-		font-size: 11pt;
+		font-size: 12.5pt;
 	}
 
 }
@@ -403,6 +403,22 @@ hr.major {
 
 .align-left {
 	text-align: left;
+}
+
+@media screen and (max-width: 736px) {
+
+	.align-left {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+
+	.align-left {
+		text-align: center;
+	}
+
 }
 
 .align-center {
@@ -2798,6 +2814,7 @@ a.icon.style2:active:before {
 	max-width: 10rem;
 }
 
+
 .image.left img,
 .image.right img {
 	width: 100%;
@@ -2816,9 +2833,8 @@ a.icon.style2:active:before {
 }
 
 .image.fit {
-	display: block;
 	margin: 0 0 2rem 0;
-	width: 100%;
+	width: 70%;
 }
 
 .image.fit img {
@@ -8416,7 +8432,7 @@ body.is-preload .items.onload-fade-in>*>.inner {
 @media screen and (max-width: 980px) {
 
 	.index>*>header {
-		width: 11rem;
+		width: 15rem;
 	}
 
 }
@@ -8424,7 +8440,7 @@ body.is-preload .items.onload-fade-in>*>.inner {
 @media screen and (max-width: 736px) {
 
 	.index>*>header {
-		width: 10rem;
+		width: 14rem;
 	}
 
 }
