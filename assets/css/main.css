@@ -8883,10 +8883,58 @@ body.is-preload .items.onload-fade-in>*>.inner {
 
 .floatingMenu {
 	position: absolute;
-	bottom: 60px;
-	right: 0px;
+	bottom: 45px;
+	right: 0.25rem;
 	/* width: 200px; */
 	display: none;
+}
+
+@media screen and (max-width: 1680px) {
+
+	.floatingButtonWrap {
+		right: 30px;
+	}
+
+	.floatingMenu {
+		bottom: 30px;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	.floatingButtonWrap {
+		right: 20px;
+	}
+
+	.floatingMenu {
+		bottom: 29px;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.floatingButtonWrap {
+		right: 5px;
+	}
+
+	.floatingMenu {
+		bottom: 27px;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+
+	.floatingButtonWrap {
+		right: 5px;
+	}
+
+	.floatingMenu {
+		bottom: 10px;
+	}
+
 }
 
 .floatingMenu li {
