@@ -8826,3 +8826,107 @@ body.is-preload .items.onload-fade-in>*>.inner {
 #wrapper.divided>.invert:first-child {
 	box-shadow: none !important;
 }
+
+/* Floating Button */
+
+.floatingButtonWrap {
+	display: block;
+	position: fixed;
+	bottom: 45px;
+	right: 45px;
+	z-index: 999999999;
+}
+
+.floatingButtonInner {
+	position: relative;
+}
+
+.floatingButton {
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background: #829209;
+	color: #829209;
+	line-height: 50px;
+	position: absolute;
+	border-radius: 50% 50%;
+	bottom: 0px;
+	right: 0px;
+	border: 5px solid #c8d08b;
+	/* opacity: 0.3; */
+	opacity: 1;
+	transition: all 0.4s;
+}
+
+.floatingButton .fa {
+	font-size: 15px !important;
+}
+
+.floatingButton.open,
+.floatingButton:hover,
+.floatingButton:focus,
+.floatingButton:active {
+	opacity: 1;
+	color: #fff;
+}
+
+
+.floatingButton .fa {
+	transform: rotate(0deg);
+	transition: all 0.4s;
+}
+
+.floatingButton.open .fa {
+	transform: rotate(360deg);
+}
+
+.floatingMenu {
+	position: absolute;
+	bottom: 60px;
+	right: 0px;
+	/* width: 200px; */
+	display: none;
+}
+
+.floatingMenu li {
+	width: 100%;
+	float: right;
+	list-style: none;
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+.floatingMenu li a {
+	padding: 8px 8px;
+	display: inline-block;
+	background: #829209;
+	color: #829209;
+	border-radius: 50%;
+	overflow: hidden;
+	white-space: nowrap;
+	transition: all 0.4s;
+	/* -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22); */
+	-webkit-box-shadow: 1px 3px 5px rgba(218, 255, 211, 0.5);
+	box-shadow: 1px 3px 5px rgba(218, 255, 211, 0.5);
+}
+
+.floatingMenu li a:hover {
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.circle-frame,
+.circle-frame img {
+	object-fit: cover;
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	-webkit-border-radius: 50%;
+	/* Saf3+, Chrome */
+	border-radius: 50%;
+	/* Opera 10.5, IE 9 */
+	-moz-border-radius: 50%;
+	/* Disabled for FF1+ */
+}
