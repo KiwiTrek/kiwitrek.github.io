@@ -3994,7 +3994,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style3) */
 
 .banner.style3 {
-	padding: 7rem 7rem 5rem 7rem;
+	padding: 0rem 7rem;
 	-moz-align-items: center;
 	-webkit-align-items: center;
 	-ms-align-items: center;
