@@ -47,6 +47,20 @@
 	</div>
 </div>
 
+<div class="floattingMenu" id="menu">
+	<div class="header">
+		<i class="fa fa-bars" aria-hidden="true"></i>
+	</div>
+	<div class="items">
+		<a href="#beginning" class="link smooth-scroll">Inicio</a>
+		<a href="#highlights" class="link smooth-scroll">Destacados</a>
+		<a href="#skills" class="link smooth-scroll">Habilidades</a>
+		<a href="artGalleryES.html" class="link">Galeria de Arte</a>
+		<a href="gameProjectsES.html" class="link">Juegos publicados</a>
+		<a href="levelDesignES.html" class="link">Disseño de Niveles</a>
+	</div>
+</div>
+
 <body class="is-preload">
 
 	<!-- Wrapper -->
@@ -54,8 +68,9 @@
 
 		<!-- Introduction -->
 		<section
-			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-			<div id="beginning" class="content">
+			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+			id="beginning">
+			<div class="content">
 				<h1>Muy buenas! Soy Guillem Álava</h1>
 				<h3><i>Artista 3D</i></h3>
 				<p>Soy un <b>Desarrollador de Videojuegos Junior</b> situado en Barcelona, España, con una ardiente
@@ -100,13 +115,11 @@
 						<a href="assets\docs\Alava_Guillem_Resume.pdf" class="button big wide smooth-scroll-middle"
 							target="_blank">
 							<span class="icon solid fa-file-pdf"></span>
-							<b>Leer Currículum</b>
+							Leer currículum
 						</a>
 					</li>
-					<li><a href="#first" class="button primary big wide smooth-scroll-middle">
-							<span class="icon solid fa-project-diagram"></span>
-							Ver todos los Proyectos
-						</a></li>
+					<li><a href="mailto:alavag994@gmail.com" class="button primary big wide smooth-scroll-middle"
+							target="_blank"><span class="icon solid fa-envelope"></span> Contacta conmigo</a></li>
 				</ul>
 			</div>
 			<div class="image">
@@ -116,11 +129,13 @@
 		</section>
 
 		<!--Highlights-->
-		<section class="wrapper style2 align-center">
+		<section class="wrapper style2 align-center" id="highlights">
 			<h1>Destacados</h1>
 			<div class="inner">
-				<section class="banner style3">
-					<div class="beginning" id="wrapper">
+				<section
+					class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
+					id="first">
+					<div class="content">
 						<h1>Kaijus as Environments</h1>
 						<h3>Diseño y Producción de un Monstruo Colosal funcionando como Boss Level</h3>
 						<h4>Proyecto de final de grado <b>galardonado con Matrícula de Honor</b> por el jurado: <u><a
@@ -130,7 +145,7 @@
 									Suau</a></u> y <u><a href="https://www.linkedin.com/in/josep-serrano-recuero/">Josep
 									Serrano</a></u> del CITM-UPC.</h4>
 
-						<body>
+						<p>
 							El objetivo principal de este estudio es analizar qué
 							hace que una pelea contra
 							un jefe colosal sea excelente y cómo hacer una, centrándose principalmente en la
@@ -147,7 +162,7 @@
 							prototipo, el jugador debe derrotar a un enemigo formidable de magnitudes gigantescas en
 							medio de unas ruinas atravesando y escalando su cuerpo hacia la cima, donde espera el
 							verdadero enemigo detrás del caos.<br>ㅤ
-						</body>
+						</p>
 						<ul class="actions wrap">
 							<li>
 								<a href="https://github.com/KiwiTrek/Kaiju_Environment_TFG_Project/releases/download/Gold/Alava_Guillem_Kaijus_As_Environments_Gold.zip"
@@ -183,13 +198,58 @@
 						<img src="images/gallery/thumbs/escargotree.jpg" alt="" />
 					</div>
 				</section>
+				<h1>. . .</h1>
+				<section
+					class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
+					id="first">
+					<div class="content">
+						<h1>Ommetaphobia</h1>
+						<h3>Survival Horror</h3>
+						<h4>Entrada de Game Jam (16th June 2023 - 21st June 2023)</h4>
+
+						<p>
+							Juego de Survival Horror de RuinaCorp, creado para la 6ta Edición de GranCITM, con el
+							tema "Eco".
+							<br><br>El objetivo del juego es escapar de una instalación acechada por críptidos
+							utilizando tus habilidades de ecolocalización para ver en la oscuridad. Está inspirado
+							en la estética del Universo SCP y juegos como Limbus Company y Library of Ruina.
+							<br><br>Si bien la mayoría de los elementos de este juego provienen de fuentes externas,
+							mi papel como artista principal y artista técnico implicó crear los modelos y programar
+							las animaciones y shaders de la bestia principal ("The Humming Eyes"), crear los
+							escenarios, documentos , interfaz de usuario, tráiler, material promocional, etc.
+						</p>
+						<p class="align-center">
+							&lt;o&gt; &lt;o&gt;
+						</p>
+						<ul class="actions stacked fit">
+							<li>
+								<a href="https://youtu.be/tp6OPXNisGI" class="button" target="_blank">
+									<span class="icon solid style4 fa-video"></span>
+									Veure tràiler
+								</a>
+							</li>
+							<li>
+								<iframe frameborder="0"
+									src="https://itch.io/embed/2127135?border_width=5&amp;fg_color=000000&amp;link_color=829209&amp;border_color=979797"
+									width="560" height="175">
+									<div class="image">
+										<img src="images/gallery/thumbs/humming_thumb.jpg" alt="" />
+									</div>
+								</iframe>
+							</li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/gallery/thumbs/humming_thumb.jpg" alt="" />
+					</div>
+				</section>
 			</div>
 		</section>
 
 		<!-- Skills -->
-		<section class="wrapper style1 align-center">
+		<section class="wrapper style1 align-center" id="skills">
 			<div class="inner">
-				<h1>Hard Skills</h1>
+				<h1>Habilidades duras</h1>
 				<div class="table-wrapper align-center content-align-center">
 					<table class="alt">
 						<thead>
@@ -213,7 +273,7 @@
 											<h4>Maya</h4>
 										</section>
 										<section>
-											<span class="icon solid style2 small fa-cube"></span>
+											<span class="icon devicon style2 small devicon-threedsmax-plain"></span>
 											<h4>3Ds Max</h4>
 										</section>
 										<section>
@@ -241,7 +301,7 @@
 											<h4>Adobe Photoshop</h4>
 										</section>
 										<section>
-											<span class="icon solid style2 small fa-bezier-curve"></span>
+											<span class="icon devicon style2 small devicon-illustrator-plain"></span>
 											<h4>Adobe Illustrator</h4>
 										</section>
 										<section>
@@ -285,7 +345,7 @@
 											<h4>Firebase</h4>
 										</section>
 										<section>
-											<span class="icon devicon style2 major devicon-unity-original"></span>
+											<span class="icon devicon style2 major devicon-unity-plain"></span>
 											<h4>Unity</h4>
 										</section>
 										<section>
@@ -342,28 +402,32 @@
 		</section>
 		<section class="wrapper style1 align-center">
 			<div class="inner">
-				<h2>Soft Skills</h2>
+				<h2>Habilidades blandas</h2>
 				<div class="items style3 medium onscroll-fade-in">
 					<section>
 						<span class="icon solid style2 major fa-drafting-compass"></span>
-						<h4>Creatividad</h4>
-						<p>Facilidad para desarrollar y producir ideas imaginativas que requieren diferentes conjuntos
-							de habilidades.</p>
+						<h3><i>Creatividad</i></h3>
+						<p>Facilidad para desarrollar y producir ideas imaginativas que requieran diferentes conjuntos
+							de habilidades</p>
 					</section>
 					<section>
 						<span class="icon solid style2 major fa-lightbulb"></span>
-						<h4>Resolución de Problemas</h4>
-						<p>Habilidades de mediador, capaz de adaptarse a situaciones de incertidumbre.</p>
+						<h3><i>Resolución de problemas</i></h3>
+						<p>Habilidades mediadoras, con la capacidad de adaptarse a situaciones inciertas y alcanzar el
+							mejor resultado
+						</p>
 					</section>
 					<section>
 						<span class="icon solid style2 major fa-flag"></span>
-						<h4>Liderazgo</h4>
-						<p>Gestión y supervisión de varios equipos pequeños</p>
+						<h3><i>Liderazgo</i></h3>
+						<p>Gestión, tutoría, enseñanza y supervisión de múltiples equipos pequeños simultáneamente</p>
 					</section>
 					<section>
 						<span class="icon solid style2 major fa-people-carry"></span>
-						<h4>Trabajo en Equipo</h4>
-						<p>Con experiencia trabajando en equipos pequeños</p>
+						<h3><i>Trabajo en equipo</i></h3>
+						<p>Experiencia trabajando con equipos pequeños usando metodologías <b>Ágiles</b> como Scrum y
+							Kanban
+						</p>
 					</section>
 				</div>
 			</div>
@@ -393,7 +457,7 @@
 		<section class="spotlight style1 orient-right content-align-right image-position-center onscroll-image-fade-in"
 			id="first">
 			<div class="content">
-				<h2>Videojuegos Publicados</h2>
+				<h2>Juegos Publicados</h2>
 				<p>Aquí están todos los juegos en los que contribuí en diferentes roles como desarrollador de juegos,
 					desde programación y scripting hasta creación de arte y modelos. Esto incluye mis propios proyectos,
 					otros trabajos, proyectos universitarios y game jams en los que mi papel era principalmente
@@ -430,8 +494,10 @@
 	<!-- Footer -->
 	<footer class="wrapper style1 align-center">
 		<div class="inner">
-			<ul class="actions stacked align-center">
+			<ul class="actions fit align-center">
 				<li><a href="#beginning" class="button big wide smooth-scroll-middle">Subir</a></li>
+				<li><a href="mailto:alavag994@gmail.com" class="button primary big wide smooth-scroll-middle"
+						target="_blank"><span class="icon solid fa-envelope"></span> Contacta conmigo</a></li>
 			</ul>
 			<ul class="icons">
 				<li><a href="https://www.artstation.com/kiwitrek" class="icon brands style2 fa-artstation"
@@ -452,8 +518,6 @@
 			<p>&copy; Story. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 		</div>
 	</footer>
-
-	</div>
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>

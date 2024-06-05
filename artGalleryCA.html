@@ -47,11 +47,22 @@
     </div>
 </div>
 
+<div class="floattingMenu" id="menu">
+    <div class="header">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="items">
+        <a href="#characters" class="link smooth-scroll">Personatges</a>
+        <a href="#environments" class="link smooth-scroll">Escenaris</a>
+        <a href="#2dart" class="link smooth-scroll">Art 2D</a>
+    </div>
+</div>
+
 <body class="is-preload">
 
     <!-- Wrapper -->
     <div id="wrapper" class="divided">
-        <section class="wrapper style1 align-center">
+        <section class="wrapper style1 align-center" id="characters">
             <div class="inner">
                 <h1>Galeria d'Art</h1>
                 <p>Aquí teniu totes les meves obres d'art en 3D autònomes, la majoria publicades a ArtStation,
@@ -73,6 +84,20 @@
                 <p>Art relacionat amb la creació de criatures, inclosos animals, monstres i anatomia</p>
                 <!-- Gallery -->
                 <div id="carouselle" class="gallery style1 medium lightbox onscroll-fade-in">
+                    <article class="card">
+                        <a href="images/gallery/fulls/u_girl.png" class="image">
+                            <img src="images/gallery/thumbs/u_girl_thumbnail.png" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>U (Assistent Personal IA)</h3>
+                            <p>Avatar base de l'aplicació "Double U", un assistent IA multiplataforma</p>
+                            <ul class="actions fixed">
+                                <li><a href="https://www.artstation.com/artwork/6NroLO" class="button small"
+                                        target="_blank">Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
                     <article class="card">
                         <a href="images/gallery/fulls/postal_de_nadal.png" class="image">
                             <img src="images/gallery/thumbs/postal_de_nadal_thumb.png" alt="" />
@@ -210,7 +235,7 @@
             </section>
         </div>
         <div id="projectSections" class="divided">
-            <section class="wrapper style1 align-center">
+            <section class="wrapper style1 align-center" id="environments">
                 <!-- Artstation -->
                 <h2>
                     <u><br>Escenaris</u>
@@ -324,7 +349,7 @@
             </section>
         </div>
         <div id="projectSections" class="divided">
-            <section class="wrapper style1 align-center">
+            <section class="wrapper style1 align-center" id="2dart">
                 <!-- Artstation -->
                 <h2>
                     <u><br>Art 2D</u>

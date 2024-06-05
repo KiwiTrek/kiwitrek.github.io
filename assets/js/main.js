@@ -377,4 +377,24 @@
 		});
 	});
 
+	//Floating Menu
+	const floattingMenu = document.getElementById('floattingMenu');
+
+	function toggleMenu() {
+		if (!menu.classList.contains('floattingMenu--expanded')) {
+			menu.classList.add('floattingMenu--expanded');
+		}
+	}
+
+	menu.addEventListener("click", toggleMenu);
+
+	// Remove menu--expanded class on click away
+	document.addEventListener('click', function (event) {
+		var clickInside = menu.contains(event.target);
+		if (clickInside) {
+		} else {
+			menu.classList.remove('floattingMenu--expanded');
+		}
+	});
+
 })(jQuery);
