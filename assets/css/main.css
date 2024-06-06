@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css");
+@import url(cara-icon.css);
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -2737,6 +2738,11 @@ input[type="radio"]:focus+label:before {
 
 .icon.devicon:before {
 	font-family: 'devicon';
+}
+
+.icon.cara-icon:before {
+	font-family: 'cara-icon';
+	content: '\e800';
 }
 
 .icon.material:before {

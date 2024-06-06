@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'cara-icon';
+  src: url('../webfonts/cara-icon.eot?11897139');
+  src: url('../webfonts/cara-icon.eot?11897139#iefix') format('embedded-opentype'),
+    url('../webfonts/cara-icon.woff2?11897139') format('woff2'),
+    url('../webfonts/cara-icon.woff?11897139') format('woff'),
+    url('../webfonts/cara-icon.ttf?11897139') format('truetype'),
+    url('../webfonts/cara-icon.svg?11897139#cara-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* '' */
