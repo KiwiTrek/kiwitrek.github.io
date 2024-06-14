@@ -7481,7 +7481,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 /* Wrapper (style2) */
 
 .wrapper.style2 {
-	padding: 7rem;
+	padding: 2rem;
 	background-color: #eeeeee;
 }
 
@@ -7507,7 +7507,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 @media screen and (max-width: 1680px) {
 
 	.wrapper.style2 {
-		padding: 5rem;
+		padding: 1.5rem;
 	}
 
 	.wrapper.style2>.inner {
@@ -7519,7 +7519,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 @media screen and (max-width: 1280px) {
 
 	.wrapper.style2 {
-		padding: 4rem;
+		padding: 1rem;
 	}
 
 	.wrapper.style2>.inner {
@@ -7531,7 +7531,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 @media screen and (max-width: 980px) {
 
 	.wrapper.style2 {
-		padding: 2.25rem;
+		padding: 0.75rem;
 	}
 
 	.wrapper.style2>.inner {
@@ -7543,7 +7543,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 @media screen and (max-width: 736px) {
 
 	.wrapper.style2 {
-		padding: 1.5rem;
+		padding: 0.5rem;
 	}
 
 	.wrapper.style2>.inner {
