@@ -2798,6 +2798,12 @@ input[type="radio"]:focus+label:before {
 	content: '\e810';
 }
 
+.icon.davinci-resolve-icon:before {
+	font-family: 'kiwitrek_icons';
+	content: '\e814';
+} /* '' */
+
+
 /* '' */
 
 .icon.material:before {

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'kiwitrek_icons';
-  src: url('../webfonts/kiwitrek_icons.eot?24349032');
-  src: url('../webfonts/kiwitrek_icons.eot?24349032#iefix') format('embedded-opentype'),
-    url('../webfonts/kiwitrek_icons.woff2?24349032') format('woff2'),
-    url('../webfonts/kiwitrek_icons.woff?24349032') format('woff'),
-    url('../webfonts/kiwitrek_icons.ttf?24349032') format('truetype'),
-    url('../webfonts/kiwitrek_icons.svg?24349032#kiwitrek_icons') format('svg');
+  src: url('../webfonts/kiwitrek_icons.eot?46898125');
+  src: url('../webfonts/kiwitrek_icons.eot?46898125#iefix') format('embedded-opentype'),
+       url('../webfonts/kiwitrek_icons.woff2?46898125') format('woff2'),
+       url('../webfonts/kiwitrek_icons.woff?46898125') format('woff'),
+       url('../webfonts/kiwitrek_icons.ttf?46898125') format('truetype'),
+       url('../webfonts/kiwitrek_icons.svg?46898125#kiwitrek_icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
