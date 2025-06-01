@@ -2803,6 +2803,10 @@ input[type="radio"]:focus+label:before {
 	content: '\e814';
 } /* '' */
 
+.icon.warudo-icon:before {
+	font-family: 'kiwitrek_icons';
+	content: '\e802';
+}
 
 /* '' */
 
